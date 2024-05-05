@@ -1,0 +1,45 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+  
+  body {
+    font-size: 16px;
+    background: #fff;
+    font-family: "Roboto"; }
+  
+  a {
+    color: #ffa136; }
+  
+  .wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto; }
+  
+  .info {
+    text-align: center;
+    padding: 20px;
+    color: #001F3F;
+    border-bottom: 1px solid #ccc; }
+    .info p {
+      margin-top: 20px; }
+  
+    .formulario h2 {
+      font-size: 16px;
+      color: #001F3F;
+      margin-bottom: 20px;
+      margin-left: 20px; }
+    .formulario > div {
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc; }
+    .formulario .radio label,
+      .formulario .radio label:hover,
+      .formulario .radio label:before,
+      .formulario input[type="radio"]:checked + label {
+        padding: 5px 15px;
+        background: #ffbc36;
+        border-radius: 2px;
+        color: #251515; }
+  
